@@ -114,7 +114,7 @@ var DETAILS = {
       {name: "LOWER BOX", price: 2500},
       {name: "UPPER BOX", price: 1000}
     ],
-    seatmap: "../images/asap-seatplan.jpg",  
+    seatmap: "../images/asap-shatap.jpg",  
     buyLink: "https://smtickets.com/events/view/18459"
 },
 
