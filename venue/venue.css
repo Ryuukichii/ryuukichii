@@ -1,0 +1,13 @@
+/* ===== Venue page ===== */
+.venue-grid{display:flex;justify-content:center;flex-wrap:wrap;gap:40px 70px;padding:30px 60px 20px}
+.venue-card{width:270px;text-align:center;display:block;transition:transform .2s}
+.venue-card:hover{transform:translateY(-6px)}
+.venue-card .poster{width:100%;aspect-ratio:1/0.82;border-radius:42px;box-shadow:0 6px 14px var(--card-shadow)}
+.venue-card .fallback{font-size:1.1rem}
+.venue-card h3{margin-top:8px;font-size:.85rem;font-weight:800}
+.rating{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:2px}
+.stars{position:relative;display:inline-block;font-size:2rem;line-height:1.2;letter-spacing:2px;color:#d8d8d8;white-space:nowrap}
+.stars .fill{position:absolute;left:0;top:0;overflow:hidden;color:#f5a800}
+.score{font-weight:800;font-size:1.05rem}
+
+@media(max-width:640px){ .venue-grid{padding:20px} }

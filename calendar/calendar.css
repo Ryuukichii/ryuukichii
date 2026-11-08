@@ -1,0 +1,33 @@
+/* ===== Calendar page ===== */
+.cal-wrap{display:flex;gap:30px;padding:10px 40px 30px;align-items:flex-start}
+.cal{flex:0 0 46%;max-width:520px}
+.cal-list{flex:1;border-left:2px solid var(--text);padding-left:30px;min-width:0}
+
+.cal-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.cal-bar h2{font-size:1.3rem;font-weight:800}
+.cal-nav{border:2px solid var(--text);background:transparent;color:var(--text);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:.8rem;transition:.2s}
+.cal-nav:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);border:2px solid var(--cal-line)}
+.cal-grid > *{border:1px solid var(--cal-line);text-align:center;font:600 1rem 'Poppins',sans-serif;color:var(--text);background:var(--bg)}
+.cal-grid .dow{background:var(--cal-head);font-weight:800;padding:14px 0}
+.day{aspect-ratio:1/0.95;display:grid;place-items:center}
+.day.other{color:var(--muted)}
+button.day{cursor:pointer;background:var(--cal-event);transition:.2s}
+button.day:hover{filter:brightness(.92)}
+button.day.sel{outline:3px solid var(--accent);outline-offset:-3px;background:var(--accent);color:#fff}
+
+.cal-list h2{font-size:1.5rem;font-weight:800;margin-bottom:4px}
+.cal-sub{font-size:.85rem;margin-bottom:14px;min-height:1.2em}
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:18px 14px}
+.mini{text-align:center;display:block}
+.mini .poster{aspect-ratio:3/4;border-radius:14px;box-shadow:0 4px 10px var(--card-shadow)}
+.mini .fallback{font-size:.6rem}
+.mini h3{margin-top:6px;font-size:.62rem;font-weight:800;text-transform:uppercase;line-height:1.25}
+.mini p{font-size:.55rem;margin-top:2px}
+
+@media(max-width:860px){
+  .cal-wrap{flex-direction:column;padding:10px 20px 30px}
+  .cal{flex:none;width:100%;max-width:none}
+  .cal-list{border-left:none;border-top:2px solid var(--text);padding:20px 0 0;width:100%}
+}

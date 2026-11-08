@@ -1,0 +1,25 @@
+/* ===== Home page ===== */
+.carousel{position:relative;padding:30px 0 10px}
+.track{display:flex;gap:50px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:10px 90px 20px;scrollbar-width:none}
+.track::-webkit-scrollbar{display:none}
+.slide{flex:0 0 200px;scroll-snap-align:center;text-align:center;display:block;transition:transform .2s}
+.slide:hover{transform:translateY(-6px)}
+.slide .poster{width:100%;aspect-ratio:3/4;border-radius:22px;box-shadow:0 6px 14px rgba(0,0,0,.35)}
+.slide h3{margin-top:12px;font-size:.88rem;font-weight:800;text-transform:uppercase;line-height:1.3}
+.slide p{font-size:.78rem;margin-top:4px}
+
+.arrow{position:absolute;top:42%;width:36px;height:44px;border:none;background:var(--arrow);cursor:pointer;z-index:5;transition:.2s}
+.arrow:hover{transform:scale(1.15)}
+.arrow.left{left:14px;clip-path:polygon(100% 0,0 50%,100% 100%,60% 50%)}
+.arrow.right{right:14px;clip-path:polygon(0 0,100% 50%,0 100%,40% 50%)}
+
+.dots{display:none;justify-content:center;flex-wrap:wrap;gap:10px;padding:10px 20px 40px}
+.dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--text);background:transparent;cursor:pointer;padding:0;transition:.2s}
+.dot.active{background:var(--accent);border-color:var(--accent)}
+
+@media(max-width:640px){
+  .track{padding:10px 50px 20px;gap:30px}
+  .arrow{width:26px;height:34px}
+  .arrow.left{left:6px}
+  .arrow.right{right:6px}
+}

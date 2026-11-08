@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eventstage | Event Details</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Bungee&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="details.css">
+</head>
+<body data-page="details">
+
+<header>
+  <a href="../home/home.html" class="logo">EVENTSTAGE</a>
+  <div class="header-right">
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="text" placeholder="Search for Artists , Events..." autocomplete="off">
+      <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+    </form>
+    <div class="toggle" id="themeToggle" title="Toggle dark mode"></div>
+  </div>
+</header>
+
+<nav class="nav">
+  <span class="label">Find Events</span>
+  <a class="pill" href="../home/home.html">Home</a>
+  <a class="pill active" href="../events/events.html">Events</a>
+  <a class="pill" href="../venue/venue.html">Venue</a>
+  <a class="pill" href="../calendar/calendar.html">Calendar</a>
+  <div class="dropdown" id="genreDropdown">
+    <button class="pill" id="genreBtn" type="button">Genre &nbsp;⌵</button>
+    <div class="dropdown-menu" id="genreMenu"></div>
+  </div>
+</nav>
+
+<main>
+  <div id="detail"></div>
+  <p class="empty" id="notFound" hidden>Sorry, we couldn't find that event. <a href="../events/events.html" class="back-link">Back to all events</a></p>
+</main>
+
+<footer class="footer">© EVENTSTAGE 2026 | FOLLOW US: <a href="#">FB</a> <a href="#">IG</a> <a href="#">X</a></footer>
+
+<script src="../shared/data.js"></script>
+<script src="detailsdata.js"></script>
+<script src="../shared/common.js"></script>
+<script src="details.js"></script>
+</body>
+</html>

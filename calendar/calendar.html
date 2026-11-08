@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eventstage | Calendar</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Bungee&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="calendar.css">
+</head>
+<body data-page="calendar">
+
+<header>
+  <a href="../home/home.html" class="logo">EVENTSTAGE</a>
+  <div class="header-right">
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="text" placeholder="Search for Artists , Events..." autocomplete="off">
+      <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+    </form>
+    <div class="toggle" id="themeToggle" title="Toggle dark mode"></div>
+  </div>
+</header>
+
+<nav class="nav">
+  <span class="label">Find Events</span>
+  <a class="pill" href="../home/home.html">Home</a>
+  <a class="pill" href="../events/events.html">Events</a>
+  <a class="pill" href="../venue/venue.html">Venue</a>
+  <a class="pill active" href="../calendar/calendar.html">Calendar</a>
+  <div class="dropdown" id="genreDropdown">
+    <button class="pill" id="genreBtn" type="button">Genre &nbsp;⌵</button>
+    <div class="dropdown-menu" id="genreMenu"></div>
+  </div>
+</nav>
+
+<main>
+  <div class="cal-wrap">
+    <section class="cal">
+      <div class="cal-bar">
+        <button class="cal-nav" id="calPrev" type="button" aria-label="Previous month">&#9664;</button>
+        <h2 id="calTitle"></h2>
+        <button class="cal-nav" id="calNext" type="button" aria-label="Next month">&#9654;</button>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+    </section>
+    <section class="cal-list">
+      <h2>Lists of Concerts for this Month</h2>
+      <p class="cal-sub" id="calSub"></p>
+      <div class="mini-grid" id="miniGrid"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">© EVENTSTAGE 2026 | FOLLOW US: <a href="#">FB</a> <a href="#">IG</a> <a href="#">X</a></footer>
+
+<script src="../shared/data.js"></script>
+<script src="../shared/common.js"></script>
+<script src="calendar.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* ===== Events page ===== */
+main{padding:10px 60px 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:40px 36px}
+.card{display:flex;flex-direction:column;scroll-margin-top:20px}
+.card.flash .poster{outline:4px solid var(--accent)}
+.date{color:var(--accent);font-size:.9rem;padding-top:10px;border-top:2px solid var(--accent);width:max-content;margin-bottom:14px}
+.card .poster{aspect-ratio:16/10;border-radius:4px;box-shadow:6px 8px 14px var(--card-shadow)}
+.card .fallback{font-size:1.1rem;padding:14px}
+.card h3{margin-top:18px;font-size:1rem;font-weight:800;text-transform:uppercase;text-align:center;line-height:1.35}
+.venue{margin-top:12px;font-size:.85rem}
+.buy{margin-top:22px;display:block;text-align:center;background:var(--accent-soft);color:#fff;font-weight:700;padding:16px;border:5px solid var(--accent-border);letter-spacing:.5px;transition:.2s}
+.buy:hover{background:var(--accent);border-color:var(--accent-soft)}
+
+.filter-note{margin-bottom:18px;font-size:.95rem}
+.filter-note:empty{display:none}
+.filter-note a{color:var(--accent);font-weight:700;margin-left:8px;text-decoration:underline}
+
+@media(max-width:640px){ main{padding:10px 20px 30px} }
