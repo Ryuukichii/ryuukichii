@@ -131,7 +131,7 @@ var DETAILS = {
       {name: "BOX B PREMIUM", price: 4250},
       {name: "BOX REGULAR", price: 2950}
     ],
-    seatmap: "../images/wave-seatplan.jpg",  
+    seatmap: "../images/kaway-sa-mundo.jpg",  
     buyLink: "https://ticketmaster.ph/activity/detail/26ph_wavetoearth"
 },
 "mico": {
