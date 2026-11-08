@@ -61,7 +61,7 @@ var EVENTS = [
 
 
 var VENUES = [
-  {name:"SM Mall of Asia Arena", img:"../images/sm-moa-arena.jpg", color:"#2f6fa8", rating:4.5},
+  {name:"SM Mall of Asia Arena", img:"../images/sm-moa-arena.jpg", color:"#2f6fa8", rating:4.5, comment:"Huge arena with great sightlines. Gets crowded, so arrive early."},
   {name:"SM Seaside Cebu Arena", img:"../images/sm-seaside-cebu.jpg", color:"#5d8aa8", rating:4.3},
   {name:"New Frontier Theatre", img:"../images/new-frontier-theatre.jpg", color:"#a8483a", rating:5.0},
   {name:"Philippine Arena", img:"../images/philippine-arena.jpg", color:"#a8483a", rating:5.0},
