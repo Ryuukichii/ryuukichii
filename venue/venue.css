@@ -10,8 +10,6 @@
 .stars .fill{position:absolute;left:0;top:0;overflow:hidden;color:#f5a800}
 .score{font-weight:800;font-size:1.05rem}
 
-@media(max-width:640px){ .venue-grid{padding:20px} }
-
 .hover-container {
   position: relative;
   display: inline-block;
@@ -55,3 +53,5 @@
   visibility: visible;
   opacity: 1;
 }
+
+@media(max-width:640px){ .venue-grid{padding:20px} }
