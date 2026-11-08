@@ -22,7 +22,7 @@
         '<a href="' + url + '">' + ES.poster(e.img, e.color, e.title) +
         '<h3>' + ES.esc(e.title) + '</h3></a>' +
         '<p class="venue">' + ES.esc(e.venue) + '</p>' +
-        '<a class="buy" href="' + url + '">BUY TICKET</a></article>';
+        '<a class="buy" href="' + (e.link && e.link !== '#' ? ES.esc(e.link) : url) + '" target="_blank" rel="noopener">BUY TICKET</a></article>';
     }).join('');
     empty.hidden = list.length > 0;
     note.innerHTML = venue ? 'Showing events at <strong>' + ES.esc(venue) + '</strong><a href="events.html">Show all</a>' : '';
