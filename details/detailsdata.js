@@ -370,7 +370,7 @@ var DETAILS = {
   seatmap: "../images/script-seatplan.jpg",
   buyLink: "https://smtickets.com/events/view/17875",
 },
-"the-beabadoobee": {
+"beabadoobee": {
     banner: "../images/bea.jpg",
     about: "beabadoobee: The Powerlines Tour is the headlining global concert tour by the acclaimed Filipino-British singer-songwriter beabadoobee (Bea Kristi Laus). Known for her signature indie-pop, alternative-rock, and lo-fi bedroom pop sound featuring beloved hits like 'the perfect pair', 'Glue Song', 'Coffee', and 'Beaches' this arena tour supports her latest music and brings her back to Manila for a much larger stage following her previous sold-out runs.",
   tickets: [
