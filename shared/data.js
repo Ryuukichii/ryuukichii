@@ -4,8 +4,8 @@
 
 var EVENTS = [
  
-  { id: "lany-soft-cebu-nov6", title: "SOFT BY LANY THE WORLD TOUR - CEBU", date: "2026-11-06", venue: "SM Seaside Cebu Arena", genres: ["Pop", "Indie"], img: "../images/lany.jpg", color: "#1b2a3a", link: "#" },
-  { id: "lany-soft-nov7", title: "SOFT BY LANY THE WORLD TOUR", date: "2026-11-07", venue: "Philippine Arena", genres: ["Pop", "Indie"], img: "../images/lany.jpg", color: "#1b2a3a", link: "#" },
+  { id: "lany-soft-cebu-nov6", title: "SOFT BY LANY THE WORLD TOUR - CEBU", date: "2026-11-06", venue: "SM Seaside Cebu Arena", genres: ["Pop", "Indie"], img: "../images/lany.jpg", color: "#1b2a3a", link: "https://smtickets.com/events/view/17219" },
+  { id: "lany-soft-nov7", title: "SOFT BY LANY THE WORLD TOUR", date: "2026-11-07", venue: "Philippine Arena", genres: ["Pop", "Indie"], img: "../images/lany.jpg", color: "#1b2a3a", link: "https://smtickets.com/events/view/17219" },
   { id: "alx-alamat", title: "ALX ALAMAT: THE LEGENDARY EXPERIENCE", date: "2026-11-08", venue: "New Frontier Theater", genres: ["P-Pop", "Pop"], img: "../images/alamat.jpg", color: "#1b2a3a", link: "#" },
   { id: "lany-soft-nov8", title: "SOFT BY LANY THE WORLD TOUR", date: "2026-11-08", venue: "Philippine Arena", genres: ["Pop", "Indie"], img: "../images/lany.jpg", color: "#1b2a3a", link: "#" },
   { id: "5sos-nov11", title: "5 SECONDS OF SUMMER: EVERYONE'S A STAR! WORLD TOUR ASIA 2026", date: "2026-11-11", venue: "SM Mall of Asia Arena", genres: ["Pop", "Rock"], img: "../images/5sos-L.png", color: "#1b2a3a", link: "#" },
