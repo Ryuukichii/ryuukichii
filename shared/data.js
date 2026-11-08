@@ -62,15 +62,15 @@ var EVENTS = [
 
 var VENUES = [
   {name:"SM Mall of Asia Arena", img:"../images/sm-moa-arena.jpg", color:"#2f6fa8", rating:4.5, comment:"Huge arena with great sightlines. Gets crowded, so arrive early."},
-  {name:"SM Seaside Cebu Arena", img:"../images/sm-seaside-cebu.jpg", color:"#5d8aa8", rating:4.3},
-  {name:"New Frontier Theatre", img:"../images/new-frontier-theatre.jpg", color:"#a8483a", rating:5.0},
-  {name:"Philippine Arena", img:"../images/philippine-arena.jpg", color:"#a8483a", rating:5.0},
-  {name:"Philippine Sports Stadium", img:"../images/philippine-sports-stadium.jpg", color:"#a8483a", rating:5.0},
-  {name:"Santiago Sports Arena", img:"../images/santiago-sports-arena.png", color:"#a8483a", rating:5.0},
-  {name:"Smart Araneta Coliseum", img:"../images/araneta-coli.jpg", color:"#a8483a", rating:5.0},
-  {name:"Filinvest City Event Grounds", img:"../images/fili-city-event-grounds.jpg", color:"#a8483a", rating:5.0},
-  {name:"Gateway Cineplex 18", img:"../images/gate18.jpg", color:"#a8483a", rating:5.0},
-  {name:"City of Santa Rosa Multi-Purpose Complex", img:"../images/multi-wilberto.jpg", color:"#5d8aa8", rating:4.4}
+  {name:"SM Seaside Cebu Arena", img:"../images/sm-seaside-cebu.jpg", color:"#5d8aa8", rating:4.3, comment:"Modern venue in Cebu with easy access to the mall."},
+  {name:"New Frontier Theatre", img:"../images/new-frontier-theatre.jpg", color:"#a8483a", rating:5.0, comment:"Intimate theatre with excellent acoustics."},
+  {name:"Philippine Arena", img:"../images/philippine-arena.jpg", color:"#a8483a", rating:5.0, comment:"One of the largest indoor arenas in the world."},
+  {name:"Philippine Sports Stadium", img:"../images/philippine-sports-stadium.jpg", color:"#a8483a", rating:5.0, comment:"Big open stadium, great for large crowds."},
+  {name:"Santiago Sports Arena", img:"../images/santiago-sports-arena.png", color:"#a8483a", rating:5.0, comment:"Comfortable mid-sized venue."},
+  {name:"Smart Araneta Coliseum", img:"../images/araneta-coli.jpg", color:"#a8483a", rating:5.0, comment:"The iconic Big Dome, a classic concert venue."},
+  {name:"Filinvest City Event Grounds", img:"../images/fili-city-event-grounds.jpg", color:"#a8483a", rating:5.0, comment:"Open-air grounds, bring sun protection."},
+  {name:"Gateway Cineplex 18", img:"../images/gate18.jpg", color:"#a8483a", rating:5.0, comment:"Cinema-style seating with a good view from anywhere."},
+  {name:"City of Santa Rosa Multi-Purpose Complex", img:"../images/multi-wilberto.jpg", color:"#5d8aa8", rating:4.4, comment:"Spacious complex with plenty of parking."}
 ];
 
 var GENRES = ["Pop","K-Pop","OPM","Rock","Indie"];
